@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>School_Lunch_Survey</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<body>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <header>
+    <h1 id="title">School Lunch Survey Form</h1>
+  </header>
+  <div class="borders">
+    <div class="chk">
+    <p id="description"><strong>Tell us how lunch experience can be improved</strong></p>
+    </div>
+    <form id="survey-form">
+      <label for="name" id="name-label">*Name</Name></label>
+      <input type="text" id="name" required placeholder="Enter your name"><br></br>
+      <label for="email" id="email-label">*Email:</label>
+      <input type="email" id="email" required placeholder="Enter valid email address"><br></br>
+      <label for="age" id="number-label">*Grade:</label>
+      <input type="number" id="number" required min="1" max="5" placeholder=5><br></br>
+      <label for="foodoptions">Select your child's food preference</label>
+      <select id="dropdown">
+        <option value="S">Salad</option>
+        <option value="SA">Impossible Burger</option>
+        <option value="SAN">Turkey Sandwich</option>
+        <option value="MA">Mac n Cheese</option>
+        <option value="RA">Rice and Beans</option>
+        <option value="CN">Chicken Nuggets</option>
+        <option value="HD">HotDog</option>
+        <option value="HM">Hamburger</option>
+        <option value="NT">Naan and Tandoori Chicken</option>
+      </select><br></br>
+      <label for="rbtn">How does your child like the menu</label>
+      <input type="radio" name="rbtn" value="Excellent">Excellent
+      <input type="radio" name="rbtn" value="VeryGood">Very Good
+      <input type="radio" name="rbtn" value="Good">Good
+      <input type="radio" name="rbtn" value="Poor">Poor<br></br>
+      <label>How can we improve</label><br>
+      <label>(Check all that apply):</label><span></span>
+      <div class="a">
+         <label for="salad"><input type="checkbox" name="cbox" value="salad" id="salad">More Salad and Fruits</label><br></br></div>
+      <div class="b">
+        <label for="veggie"><input type="checkbox" name="cbox" value="veggie" id="veggie">More Vegetarian Options</label><br></br></div>
+      <div class="c">
+       <label for="sugar"><input type="checkbox" name="cbox" value="fruits" id="sugarfree">Less Sugar Options</label><br></br></div>
+      <div class="d">
+       <label for="expensive"><input type="checkbox" name="cbox" value="expensive" id="expensive">Too Expensive</label><br></br></div>
+      <div class="e">
+       <label for="protein"><input type="checkbox" name="cbox" value="protein" id="protein">Include More Proteins</label><br></br></div>
+      <div class="f">
+      <label for="gluten"><input type="checkbox" name="cbox" value="protein" id="protein">Include Gluten Free Options</label><br></br></div>
+      <label for="tarea">Please enter any comments or suggestions:</label>
+      <textarea id="tarea" name="user_message">Some text...</textarea></label><br></br>
+     <button type="submit" value="submit" id="submit" class="mybtn">Submit</button><br></br>
+  </form>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
